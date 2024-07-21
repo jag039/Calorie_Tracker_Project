@@ -3,7 +3,25 @@
 @tailwind utilities;
 
 html{
+  max-height: 100%;
+  max-width: 100%;
   width: 100%;
   height: 100%;
   background-color: whitesmoke;
+}
+
+#foodLogItemContainer {
+  position: relative; /* Ensure the container can control the positioning of its children */
+}
+
+#foodLogItem {
+  display: none; /* Initially hide the item */
+}
+
+#foodLogItemContainer:hover #foodLogItem {
+  display: block; /* Show the item when the container is hovered */
+}
+
+#INFO {
+
 }
