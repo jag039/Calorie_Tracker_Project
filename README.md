@@ -1,40 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Calorie Tracker
+Welcome to Calorie Tracker, your comprehensive tool for managing daily caloric intake and tracking nutrition! This project features essential functionalities:
 
-## Getting Started
+- Logging Meals: Easily log your meals and snacks throughout the day.
+- Food Search: Quickly find and add foods using the integrated search bar.
+- Nutritional Info: View detailed nutritional information for each food item.
+- Daily Summary: Track your total caloric intake and macronutrient distribution.
+- User-Friendly Layout: Navigate through your daily log, food search, and nutritional info with ease.
+- Please note that this application is a project, developed with a focus on user-friendly interfaces and accurate nutritional tracking.
 
-First, run the development server:
+# Application Architecture Overview
+This project uses a modern tech stack to provide a seamless user experience:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js and TypeScript: The application is built with Next.js and TypeScript for robust and maintainable code.
+- Context API: The state of the application is managed using the Context API, ensuring efficient and global state management.
+- Components:
+    - Layout Component: Houses the main structure of the app, including the Info, Log, and FoodSearch components.
+    - Info Component: Displays user-specific information and daily summary.
+    - Log Component: Manages the daily log of meals and their nutritional values.
+    - FoodSearch Component: Provides a search interface for finding and adding foods to the log.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Things I Would Improve On
+- The styling: Enhance the visual appeal and user experience.
+- User authentication: Implement user authentication for personalized data management (potentially in a future project).
+- Use a different database: Explore other database options for better performance and scalability.
