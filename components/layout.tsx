@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import FoodSearch from "@/components/FoodSearch";
+import FoodSearch from "@/components/foodSearch";
 import Info from "@/components/Info";
 import Log from "@/components/Log";
 
