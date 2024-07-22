@@ -13,7 +13,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
     // Fetch the token from the local /api/token endpoint
-    const tokenResponse = await fetch('http://localhost:3000/api/token');
+    const tokenResponse = await fetch('https://my-calorie-log.vercel.app/api/token');
     const tokenData = await tokenResponse.json();
 
     // Check if the token was successfully obtained
